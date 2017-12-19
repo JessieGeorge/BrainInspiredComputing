@@ -1,0 +1,9 @@
+INPUT AND OUTPUT FOR THE XOR GATE
+ first input neuron spike timings = [ 0.  1.  0.  0.  1.  0.  0.  1.  0.  0.  1.  0.  0.  1.  0.  0.  1.  0.
+  0.  1.  0.]
+second input neuron spike timings = [ 0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.
+  0.  1.  0.]
+                       XOR output = [ 0.  1.  0.  0.  1.  1.  0.  1.  0.  0.  1.  0.  1.  1.  0.  0.  1.  0.
+  0.  0.  0.]
+                   learned output = [ 0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  1.  0.  1.  0.  0.  0.  1.  0.
+  0.  0.  0.]
