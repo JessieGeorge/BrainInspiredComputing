@@ -1,0 +1,92 @@
+LINE DETECTOR to detect horizontal line
+
+Testing with horizontal line i.e. 0degree, 180degree or 360degree
+The matrix of cells is: 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 1 0 1 0 1 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+OUTPUT: Yes, it contains a horizontal line in the middle of matrix
+
+Testing with 20 degree line, i.e same as 200 degree 
+The matrix of cells is: 
+0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 
+0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 
+OUTPUT: It does not contain a horizontal line
+
+Testing with 40 degree line, i.e same as 220 degree 
+The matrix of cells is: 
+0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 
+OUTPUT: It does not contain a horizontal line
+
+Testing with 80 degree line, i.e same as 260 degree 
+The matrix of cells is: 
+0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 
+OUTPUT: It does not contain a horizontal line
+
+Testing with 90 degree line, i.e. same as 270 degree 
+The matrix of cells is: 
+0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 
+OUTPUT: It does not contain a horizontal line
+
+Testing with 100 degree line, i.e. same as 280 degree 
+The matrix of cells is: 
+0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 
+OUTPUT: It does not contain a horizontal line
+
+Testing with 140 degree line, i.e. same as 320 degree 
+The matrix of cells is: 
+0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 
+OUTPUT: It does not contain a horizontal line
+
+Testing with 160 degree line, i.e. same as 340 degree 
+The matrix of cells is: 
+0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 
+0 0 0 1 0 0 0 
+0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 
+OUTPUT: It does not contain a horizontal line
+
+Testing with horizontal line towards the top 
+The matrix of cells is: 
+0 0 0 0 0 0 0 
+0 1 0 1 0 1 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+OUTPUT: Yes, it contains a horizontal line towards the top of matrix
+
+Testing with horizontal line towards the bottom 
+The matrix of cells is: 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 1 0 1 0 1 0 
+0 0 0 0 0 0 0 
+OUTPUT: Yes, it contains a horizontal line towards the bottom of matrix
+
